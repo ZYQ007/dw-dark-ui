@@ -1,14 +1,15 @@
 # dw-dark-ui
 
-This template should help get you started developing with Vue 3 in Vite.
+基于ant-design大屏定制化主题
 
-## Recommended IDE Setup
+## 安装
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
+npm i dw-dark-ui
 
-## Customize configuration
 
-See [Vite Configuration Reference](https://vitejs.dev/config/).
+## 引用
+
+import ' dw-dark-ui/dw-dark-ui/style.css '
 
 ## Project Setup
 

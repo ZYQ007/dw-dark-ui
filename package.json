@@ -1,33 +1,32 @@
 {
   "name": "dw-dark-ui",
-  "version": "1.0.4",
+  "version": "1.1.7",
   "type": "module",
   "description": "基于ant-design的暗色系可视化大屏主题",
-  "module": "./dw-dark-ui/dw-dark-ui.js",
-  "main": "./dw-dark-ui/dw-dark-ui.umd.cjs",
   "files": [
     "dw-dark-ui"
   ],
-  "exports": {
-    ".": {
-      "import": "./dw-dark-ui/dw-dark-ui.js",
-      "require": "./dw-dark-ui/dw-dark-ui.umd.cjs"
-    }
-  },
   "scripts": {
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview"
   },
+  "keywords": [
+    "dw-dark-ui",
+    "dark",
+    "ant-design-ui",
+    "ant-design-vue"
+  ],
   "dependencies": {
     "ant-design-vue": "^3.2.11",
-    "dw-dark-ui": "^1.0.4",
+    "dw-dark-ui": "^1.1.7",
     "less": "^4.1.3",
     "less-loader": "^11.0.0",
     "vue": "^3.2.37"
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "^3.0.1",
+    "css-loader": "^6.7.1",
     "vite": "^3.0.4"
   }
 }
