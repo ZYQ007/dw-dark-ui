@@ -150,7 +150,7 @@
 @primary-1: mix(color(~`colorPalette('@{primary-color}', 8) `), @component-background, 15%);
 @primary-2: mix(color(~`colorPalette('@{primary-color}', 7) `), @component-background, 25%);
 @primary-3: mix(@primary-color, @component-background, 30%);
-@primary-4: mix(@primary-color, @component-background, 100%);
+@primary-4: mix(@primary-color, @component-background, 45%);
 @primary-5: mix(@primary-color, @component-background, 65%);
 @primary-6: @primary-color;
 @primary-7: mix(color(~`colorPalette('@{primary-color}', 5) `), @component-background, 90%);
@@ -334,7 +334,7 @@
 // TimePicker
 // ---
 @picker-basic-cell-hover-with-range-color: darken(@primary-color, 35%);
-@picker-basic-cell-disabled-bg: none;
+@picker-basic-cell-disabled-bg: #303030;
 @picker-border-color: @border-color-split;
 @picker-bg: transparent;
 @picker-date-hover-range-border-color: darken(@primary-color, 20%);
@@ -415,9 +415,9 @@
 
 // Slider
 // ---
-@slider-rail-background-color: #d2d2d2;
-@slider-rail-background-color-hover: #fff;
-@slider-dot-border-color: #303030;
+@slider-rail-background-color: #262626;
+@slider-rail-background-color-hover: @border-color-base;
+@slider-dot-border-color: @border-color-split;
 @slider-dot-border-color-active: @primary-4;
 
 // Skeleton
@@ -447,14 +447,3 @@
 // Mentions
 // ---
 @mentions-dropdown-bg: @popover-background;
-
-::-webkit-scrollbar {/*滚动条整体*/
-  width: 0;
-  height: 0;
-}
-.ant-slider-track{
-  background-color: #20BCFC;
-}
-.ant-slider-handle{
-  background-color: #20BCFC;
-}
